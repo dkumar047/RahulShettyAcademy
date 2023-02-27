@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  name: 'ProjectAgent'
+  name: local
 
 steps:
 - task: Maven@3
